@@ -1,0 +1,22 @@
+.classification {
+	position: relative;
+	width: 100px;
+	height: 17px;
+}
+.classification .cover {
+	position: absolute;
+	background: transparent url(../i1mages/stars.png) top left no-repeat;
+	top: 0px;
+	left: 0px;
+	width: 100px;
+	height: 17px;
+	z-index: 101;
+}
+.classification .progress {
+	position: absolute;
+	background: transparent url(../images/stars_full.gif) top left no-repeat;
+	top: 0px;
+	left: 0px;
+	height: 17px;
+	z-index: 102;
+}

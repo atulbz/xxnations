@@ -1,0 +1,99 @@
+
+.login_btn {
+	text-decoration:none;
+	text-shadow:1px 1px 0 #000;
+	-moz-text-shadow:1px 1px 0 #000;
+	-webkit-text-shadow:1px 1px 0 #000;
+	color:#fff;
+	font-weight:bold;
+	font-size:13px;
+
+	margin-left:1082px;
+	background:#3d3d3d;
+	float:left;
+	height:34px;
+}
+.login_btn:hover {
+	background:#656565;
+}
+.login_btn span {
+	color:#fff;
+	float:left;
+	padding:0 10px 0 10px;
+	text-align:center;
+	margin-top: 8px;
+}
+.triangle {
+	float:left;
+	width:0px;
+	height:0px;
+	margin:14px 9px 0 0;
+	border-left:5px solid transparent;
+	/* left arrow slant */
+	border-right:5px solid transparent;
+	/* right arrow slant */
+	border-top:5px solid #fff;
+	/* bottom,add background color here */
+	font-size:0px;
+	line-height:0px;
+}
+
+#login_box {
+	display:none;
+	position:absolute;
+	width:236px;
+	margin:2px 0 0 937px;
+}
+
+#login_position
+{
+position:absolute;
+top:10px;
+left:600px;
+
+
+}
+
+#tab {
+	background:#fff;
+	width:91px;
+	float:right;
+	height:38px;
+	border-top-left-radius:5px;
+	border-top-right-radius:5px;
+	height:41px;
+}
+#tab .login_btn {
+	float:left;
+	margin:-2px 0 0 0px;
+}
+#login_box_content {
+	background:#ADD8E6;
+	border-top-left-radius:5px;
+	border-bottom-left-radius:5px;
+	border-bottom-right-radius:5px;
+	float:left;
+	width:236px;
+}
+
+#login_form {
+	margin:9px 0 0 9px;
+}
+#login_form input[type=text],#login_form input[type=password] {
+	border:1px solid #d8d8d8;
+	border-radius:3px;
+	font:italic 14px Georgia,times,sans-serif;
+	height:37px;
+	width:205px;
+	margin-top:10px;
+	padding-left:10px;
+}
+#login_form input[type=submit] {
+	border:none;
+	background:#19677e;
+	color:#fff;
+	float:right;
+	margin:9px 9px 9px 0;
+	width:56px;
+	height: 29px;
+}

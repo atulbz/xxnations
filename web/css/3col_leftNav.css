@@ -1,0 +1,31 @@
+
+
+#masthead{
+	padding: 0px 0px 0px 0px;
+	border-bottom: 1px solid #cccccc;
+	width: 100%;
+}
+
+#navBar{
+	float: left;
+	width: 20%;
+	margin: 0px;
+	padding: 0px;
+	background-color: #eeeeee;
+	border-right: 1px solid #cccccc;
+	border-bottom: 1px solid #cccccc;
+}
+
+#siteName{
+	margin: 0;
+	padding: 0 0 0 10px;
+}
+
+#pageName{
+	margin: 0px;
+	padding: 0px 0px 0px 10px;
+}
+#breadCrumb{
+	font-size: 80%;
+	padding: 2px 0px 0 10px;
+}
